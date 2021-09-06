@@ -1,0 +1,12 @@
+{
+  "extends": "../../baseconfig/tsconfig.base",
+  "compilerOptions": {
+    "types": ["reflect-metadata", "node"],
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

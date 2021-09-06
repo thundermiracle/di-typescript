@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["ES6"],
+    "module": "commonjs",
+    "declaration": true,
+
+    "experimentalDecorators": true,
+
+    "strict": true,
+
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  }
+}
