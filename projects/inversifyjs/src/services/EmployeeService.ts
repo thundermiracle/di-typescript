@@ -1,5 +1,4 @@
 import { inject, injectable } from 'inversify';
-import 'reflect-metadata';
 import { TYPES } from 'common/bindings/types';
 import Employee from 'common/entities/Employee';
 import sleep from 'common/utils/sleep';
