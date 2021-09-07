@@ -1,0 +1,17 @@
+{
+  "name": "typedi-token",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "eslint:src": "eslint ./src --max-warnings 0",
+    "dev": "ts-node ./src/app.ts"
+  },
+  "dependencies": {
+    "common": "1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {}
+}
