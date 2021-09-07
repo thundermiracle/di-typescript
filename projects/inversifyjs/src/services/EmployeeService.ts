@@ -1,8 +1,8 @@
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';
-import { TYPES } from '../bindings/types';
-import Employee from '../entities/Employee';
-import sleep from '../utils/sleep';
+import { TYPES } from 'common/bindings/types';
+import Employee from 'common/entities/Employee';
+import sleep from 'common/utils/sleep';
 import { IProjectService } from './ProjectService';
 
 export interface IEmployeeService {

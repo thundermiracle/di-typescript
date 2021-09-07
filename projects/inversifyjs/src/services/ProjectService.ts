@@ -1,6 +1,6 @@
 import { injectable } from 'inversify';
-import Project from '../entities/Project';
-import sleep from '../utils/sleep';
+import Project from 'common/entities/Project';
+import sleep from 'common/utils/sleep';
 
 export interface IProjectService {
   getProject(id: string): Promise<Project>;

@@ -1,4 +1,4 @@
-import { TYPES } from './bindings/types';
+import { TYPES } from 'common/bindings/types';
 import { container } from './inversify.config';
 import { IEmployeeService } from './services/EmployeeService';
 

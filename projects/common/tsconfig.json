@@ -1,0 +1,6 @@
+{
+  "extends": "../../baseconfig/tsconfig.base",
+  "compilerOptions": {
+    "types": ["node"]
+  }
+}

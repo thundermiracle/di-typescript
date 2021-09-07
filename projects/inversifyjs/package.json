@@ -9,6 +9,7 @@
     "dev": "ts-node ./src/app.ts"
   },
   "dependencies": {
+    "common": "1.0.0",
     "reflect-metadata": "^0.1.13",
     "inversify": "^5.1.1"
   },

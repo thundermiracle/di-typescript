@@ -1,5 +1,5 @@
 import { Container } from 'inversify';
-import { TYPES } from './bindings/types';
+import { TYPES } from 'common/bindings/types';
 import EmployeeService, { IEmployeeService } from './services/EmployeeService';
 import ProjectService, { IProjectService } from './services/ProjectService';
 
