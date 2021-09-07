@@ -16,9 +16,6 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-    },
   },
   rules: {
     'arrow-body-style': 0,
@@ -56,7 +53,9 @@ module.exports = {
     ],
   },
   settings: {
+    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
     'import/resolver': {
+      typescript: {},
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
         moduleDirectory: ['node_modules', 'src/'],
