@@ -10,7 +10,8 @@
   "scripts": {
     "clean": "lerna clean -y",
     "eslint": "lerna run eslint:src",
-    "dev:inversify": "lerna run dev --scope inversifyjs --stream"
+    "dev:inversifyjs": "lerna run dev --scope inversifyjs --stream",
+    "dev:typedi": "lerna run dev --scope typedi --stream"
   },
   "keywords": [],
   "author": "ThunderMiracle",
