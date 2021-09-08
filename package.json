@@ -11,7 +11,9 @@
     "clean": "lerna clean -y",
     "eslint": "lerna run eslint:src",
     "dev:inversifyjs": "lerna run dev --scope inversifyjs --stream",
-    "dev:typedi": "lerna run dev --scope typedi --stream"
+    "dev:typedi": "lerna run dev --scope typedi --stream",
+    "dev:typedi-token": "lerna run dev --scope typedi-token --stream",
+    "dev:tsyringe": "lerna run dev --scope tsyringe --stream"
   },
   "keywords": [],
   "author": "ThunderMiracle",
