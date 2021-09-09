@@ -14,7 +14,8 @@
     "dev:typedi": "lerna run dev --scope typedi --stream",
     "dev:typedi-token": "lerna run dev --scope typedi-token --stream",
     "dev:tsyringe": "lerna run dev --scope tsyringe --stream",
-    "dev:nestjs": "lerna run dev --scope nestjs --stream"
+    "dev:nestjs": "lerna run dev --scope nestjs --stream",
+    "dev:nestjs-token": "lerna run dev --scope nestjs-token --stream"
   },
   "keywords": [],
   "author": "ThunderMiracle",
