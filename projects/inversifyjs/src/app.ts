@@ -6,7 +6,7 @@ import { IEmployeeService } from './services/EmployeeService';
 const employeeService = container.get<IEmployeeService>(TYPES.EmployeeService);
 
 async function main() {
-  const employee = await employeeService.getEmployee(12);
+  const employee = await employeeService.getEmployee(13);
   console.log(JSON.stringify(employee, null, 2));
 }
 
